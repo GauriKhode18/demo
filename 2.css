@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.container {
+    height: 600px;
+    width: 350px;
+    background-image: linear-gradient(#580e8f,#9200ff); 
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    position: absolute;  
+}
+
+.checkout {
+    height: 150px;
+    background-color: #9100fb;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.left-icon {
+    float: left;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.right-icon {
+    float: right;
+    margin-right: 30px;
+    color: #fff;
+}
+
+ h1 {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: normal;
+ }
+
+.box1 {
+    height:150px;
+    color: #fff;
+    background-image: linear-gradient(#580e8f,#9200ff); 
+    margin : -75px 30px 20px ;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;   
+}
+
+p {
+    padding-top: 10px;
+}
+
+.btn2{
+    width: 290px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-image: linear-gradient(#580e8f,#9200ff);
+    cursor: pointer;  
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn3{
+    width: 290px;
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-image: linear-gradient(#580e8f,#9200ff);
+    cursor: pointer;  
+    color: #fff;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.box4{
+    height:240px;
+    width: 285px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px; 
+}
+
+.btn4{
+    width: 275px;
+    height: 25px;
+    background-image: linear-gradient(#580e8f,#9200ff);
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+}
+.btn4:hover {
+    border: 1.5px solid navy;
+}
+
+.div1{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.div2 {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.div3 {
+    margin-top: 10px;
+    float: right;
+}
+
+.div4 {
+    margin-top: 10px;
+}
+
+.search1,.search4 {
+    width: 270px;
+}
+
+.search1,.search4:hover {
+    border: 2px solid navy;
+}
+
+.search2,.search3 {
+    width: 80px;
+}
+
+.search2,.search3:hover {
+    border: 2px solid navy;
+}
+
+p {
+    display: flex;
+}
+
+label {
+    display: inline;
+}
+
+
+
